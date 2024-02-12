@@ -20,7 +20,7 @@ class PasswordInputAsset extends AssetBundle
     ];
 
     public $css = [
-        'password-input.less'
+         'password-input.css'
     ];
 
     public $depends = [
