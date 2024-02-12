@@ -15,6 +15,7 @@ composer require eluhr/yii2-password-input
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use eluhr\passwordInput\widgets\PasswordInput;
 
 $form = ActiveForm::begin();
 echo $form->field($model, 'password')->widget(PasswordInput::class, [
